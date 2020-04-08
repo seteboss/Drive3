@@ -18,6 +18,9 @@ public class News {
     private String name;
     private String text;
 
+    @Lob
+    private Byte[] image;
+
 
     public News() {
     }
